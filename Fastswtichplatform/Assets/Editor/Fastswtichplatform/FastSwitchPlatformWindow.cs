@@ -76,7 +76,7 @@ public class FastSwitchPlatformWindow : EditorWindow {
 #else
         string run = "";
 #endif
-		proc.Arguments = run+ " \"" + projectPath + "\" " + pl + " \"" + EditorApplication.applicationPath + "\"";
+		proc.Arguments = run + " \"" + projectPath + "\" " + pl + " \"" + EditorApplication.applicationPath + "\"";
 		UnityEngine.Debug.Log(proc.Arguments);
 		proc.WindowStyle = ProcessWindowStyle.Maximized;
 		proc.CreateNoWindow = false;

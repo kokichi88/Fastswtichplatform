@@ -13,4 +13,4 @@ if [ ! -d $PLATFORM_DIR ]; then
   mkdir $PLATFORM_DIR
 fi
 ln -s $PLATFORM_DIR Library
-open "${3}"
+open -n "${3}"
